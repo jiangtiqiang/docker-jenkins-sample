@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER James Turnbull "ubuntu14.02.2"
+MAINTAINER James Turnbull "ubuntu"
 ENV REFRESHED_AT 2014-06-01
 RUN apt-get update
 RUN apt-get -y install ruby rake
