@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu
 MAINTAINER James Turnbull "ubuntu"
 ENV REFRESHED_AT 2014-06-01
 #RUN apt-get update
