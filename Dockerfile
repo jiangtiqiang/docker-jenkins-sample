@@ -1,4 +1,4 @@
-FROM ubuntu:14.02.2
+FROM centos
 MAINTAINER James Turnbull "ubuntu"
 ENV REFRESHED_AT 2014-06-01
 #RUN apt-get update
