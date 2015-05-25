@@ -1,8 +1,7 @@
 FROM dind
 MAINTAINER "tristan/d_first"
 ENV REFRESHED_AT 2014-06-01
-
-docker save d_first >/home/tristan/out/d_first.tar
+apt-get install -y subversion
 EXPOSE 8080:8088
 
 #RUN apt-get update
