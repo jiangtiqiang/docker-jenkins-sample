@@ -2,6 +2,7 @@ FROM dind
 MAINTAINER "tristan/d_first"
 ENV REFRESHED_AT 2014-06-01
 apt-get install -y subversion
+apt-get install -y subversion
 EXPOSE 8088
 
 #RUN apt-get update
