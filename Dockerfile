@@ -3,6 +3,7 @@ MAINTAINER "tristan/d_first"
 ENV REFRESHED_AT 2014-06-01
 apt-get install -y subversion
 apt-get install -y subversion
+apt-get install -y git
 git clone https://github.com/mochi/mochiweb.git
 
 EXPOSE 8088
